@@ -1,0 +1,11 @@
+Empid,Name,Dept,Salary,ManagerID
+100,Hari,CEO,25,
+101,Krishna,IT,12,100
+102,Rahul,IT,12,101
+103,Shyam,Sales,10,105
+104,Preeti,Sales,10,105
+105,Swathi,Sales,10,100
+106,Priyanka,Marketing,9,105
+107,Bhargav,HR,9.5,109
+108,Chetan,HR,9.5,109
+109,Ram,Finance,10,100

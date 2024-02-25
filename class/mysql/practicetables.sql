@@ -1,18 +1,19 @@
+use batch25;
 DROP TABLE IF EXISTS `books`;
 DROP TABLE IF EXISTS `authors`;
 
 
-CREATE TABLE Authors(AuthorId INTEGER primary key, 
+CREATE TABLE authors(AuthorId INTEGER primary key, 
                                 Name VARCHAR(70));
 
-insert into Authors values(1,'J K Rowling');
-insert into Authors values(2,'Thomas Hardy');
-insert into Authors values(3,'Oscar Wilde');
-insert into Authors values(4,'Sidney Sheldon');
-insert into Authors values(5,'Alistair MacLean');
-insert into Authors values(6,'Jane Austen');
-insert into Authors values(7,'Chetan Bhagat');
-insert into Authors values(8,'Oscar Wilde');
+insert into authors values(1,'J K Rowling');
+insert into authors values(2,'Thomas Hardy');
+insert into authors values(3,'Oscar Wilde');
+insert into authors values(4,'Sidney Sheldon');
+insert into authors values(5,'Alistair MacLean');
+insert into authors values(6,'Jane Austen');
+insert into authors values(7,'Chetan Bhagat');
+insert into authors values(8,'Oscar Wilde');
 
 DROP TABLE IF EXISTS `books`;
 

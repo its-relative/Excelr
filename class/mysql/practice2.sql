@@ -1,5 +1,5 @@
 -- Create database if not exists Movies ;
-
+create database excelrdb;
 Use excelrdb;
 drop table if exists Role;
 

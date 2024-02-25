@@ -1,0 +1,10 @@
+Ship_Mode,Segment,State,Region,Sales
+First Class,Corporate,Georgia,South,12.78
+null,null,Delaware,East,9.94
+First Class,Corporate,Pennsylvania,East,61.96
+First Class,null,null,null,149.95
+null,Consumer,Arizona,West,181.47
+null,Consumer,null,West,32.34
+First Class,null,Arizona,West,108.72
+null,Consumer,Arizona,West,56.064
+First Class,Corporate,South Dakota,Central,141.96
