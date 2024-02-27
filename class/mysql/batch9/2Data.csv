@@ -1,0 +1,37 @@
+Row_ID,Order_ID,Order_Date,Ship_Date,Ship_Mode,Segment,State,Region,Sales,Quantity,Discount,Profit
+15,US-2020-105417,07-01-2020,12-01-2020,Standard Class,Consumer,Texas,Central,76.728,3,0.6,-53.7096
+16,US-2020-105417,07-01-2020,12-01-2020,Standard Class,Consumer,Texas,Central,10.43,7,0.8,-18.2525
+17,US-2020-135405,09-01-2020,13-01-2020,Standard Class,Consumer,Texas,Central,9.344,2,0.2,1.168
+18,US-2020-135405,09-01-2020,13-01-2020,Standard Class,Consumer,Texas,Central,31.2,3,0.2,9.75
+19,US-2020-149020,10-01-2020,15-01-2020,Standard Class,Corporate,Virginia,South,51.94,1,0,21.2954
+20,US-2020-149020,10-01-2020,15-01-2020,Standard Class,Corporate,Virginia,South,2.89,1,0,1.3583
+21,US-2020-130092,11-01-2020,14-01-2020,First Class,Consumer,Delaware,East,9.94,2,0,3.0814
+22,US-2020-157147,13-01-2020,18-01-2020,Standard Class,Consumer,California,West,333.999,3,0.15,3.9294
+23,US-2020-109232,13-01-2020,16-01-2020,Second Class,Consumer,South Carolina,South,545.94,6,0,87.3504
+24,US-2020-157147,13-01-2020,18-01-2020,Standard Class,Consumer,California,West,19.9,5,0,6.567
+25,US-2020-118192,13-01-2020,18-01-2020,Standard Class,Consumer,Ohio,East,3.438,2,0.7,-2.5212
+26,US-2020-162775,13-01-2020,15-01-2020,Second Class,Corporate,Louisiana,South,5.64,3,0,2.7072
+27,US-2020-162775,13-01-2020,15-01-2020,Second Class,Corporate,Louisiana,South,50.94,3,0,25.47
+28,US-2020-162775,13-01-2020,15-01-2020,Second Class,Corporate,Louisiana,South,11.36,2,0,5.3392
+29,US-2020-118192,13-01-2020,18-01-2020,Standard Class,Consumer,Ohio,East,37.408,7,0.2,13.0928
+30,US-2020-162775,13-01-2020,15-01-2020,Second Class,Corporate,Louisiana,South,572.58,6,0,34.3548
+31,US-2020-157147,13-01-2020,18-01-2020,Standard Class,Consumer,California,West,1325.85,5,0,238.653
+32,US-2020-162775,13-01-2020,15-01-2020,Second Class,Corporate,Louisiana,South,646.74,6,0,258.696
+33,US-2020-149524,14-01-2020,15-01-2020,First Class,Corporate,Pennsylvania,East,61.96,4,0.5,-53.2856
+34,US-2020-103366,15-01-2020,17-01-2020,First Class,Consumer,Georgia,South,149.95,5,0,65.978
+35,US-2020-115791,16-01-2020,18-01-2020,Second Class,Consumer,Pennsylvania,East,127.104,6,0.2,28.5984
+36,US-2020-115791,16-01-2020,18-01-2020,Second Class,Consumer,Pennsylvania,East,18.588,2,0.7,-13.6312
+37,US-2020-115791,16-01-2020,18-01-2020,Second Class,Consumer,Pennsylvania,East,30.072,3,0.2,10.1493
+38,US-2020-115791,16-01-2020,18-01-2020,Second Class,Consumer,Pennsylvania,East,124.2,3,0.4,-31.05
+39,US-2020-123477,18-01-2020,21-01-2020,Second Class,Corporate,Oregon,West,64.864,4,0.2,6.4864
+40,US-2020-146591,19-01-2020,20-01-2020,First Class,Consumer,Arizona,West,181.47,5,0.7,-320.597
+41,US-2020-146591,19-01-2020,20-01-2020,First Class,Consumer,Arizona,West,32.34,10,0.7,-23.716
+42,US-2020-146591,19-01-2020,20-01-2020,First Class,Consumer,Arizona,West,108.72,5,0.2,36.693
+43,US-2020-146591,19-01-2020,20-01-2020,First Class,Consumer,Arizona,West,56.064,4,0.2,19.6224
+44,US-2020-147627,20-01-2020,26-01-2020,Standard Class,Consumer,Arkansas,South,1067.94,3,0,224.2674
+45,US-2020-167927,20-01-2020,26-01-2020,Standard Class,Consumer,Michigan,Central,14.73,3,0,4.8609
+46,US-2020-167927,20-01-2020,26-01-2020,Standard Class,Consumer,Michigan,Central,272.94,3,0,30.0234
+47,US-2020-147627,20-01-2020,26-01-2020,Standard Class,Consumer,Arkansas,South,38.6,4,0,11.58
+48,US-2020-148614,20-01-2020,25-01-2020,Standard Class,Consumer,California,West,19.3,2,0,5.79
+49,US-2020-167927,20-01-2020,26-01-2020,Standard Class,Consumer,Michigan,Central,247.716,4,0.1,93.5816
+50,US-2020-147627,20-01-2020,26-01-2020,Standard Class,Consumer,Arkansas,South,22.96,7,0,6.6584

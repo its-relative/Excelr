@@ -73,6 +73,138 @@ right join table2 as t2
 on t1.pid = t2.pid;
 
 -- full outer join
-select t1.pid, t1.name, t2.price from table1 as t1
-outer join table2 as t2
-on t1.pid = t2.pid;
+-- select t1.pid, t1.name, t2.price from table1 as t1
+-- outer join table2 as t2
+-- on t1.pid = t2.pid;
+
+-- self join
+
+use batch9;
+-- show tables;
+select * from myemp;
+select e.emp_id,concat(e.first_name," ",e.last_name) full_name,m.mgr_id, concat(m.first_name," ",m.last_name) mgr_name from myemp e left join myemp m on e.mgr_id = m.emp_id;
+
+-- employees without any people assigned
+select e.emp_id,concat(e.first_name," ",e.last_name) full_name,m.mgr_id, concat(m.first_name," ",m.last_name) mgr_name from myemp e right join myemp m on e.mgr_id = m.emp_id;
+
+use batch9;
+show tables;
+select * from authors;
+select * from books;
+
+select b.title, a.name from books b left join authors a on b.authorid = a.authorid;
+
+-- savepoint, commit and rollback
+
+set autocommit = 0;
+
+-- Start a transaction
+START TRANSACTION;
+
+
+
+create table your_table (column1 varchar(8), column2 varchar(8));
+-- Execute some queries
+INSERT INTO your_table (column1, column2) VALUES ('value1', 'value2');
+
+-- Set a savepoint
+SAVEPOINT my_savepoint;
+
+insert into your_table values('value3',"value4");
+
+-- Execute more queries
+UPDATE your_table SET column1 = 'new_value' WHERE column2 = 'value2';
+
+-- Roll back to the savepoint
+ROLLBACK TO my_savepoint;
+
+-- Commit or Rollback the transaction
+COMMIT; -- or ROLLBACK; if you want to discard all changes
+
+select * from your_table;
+
+
+-- TCL
+
+select * from myemp;
+
+select avg(salary) from myemp;
+
+select * from myemp where salary > (select avg(salary) from myemp) order by salary desc limit 2;
+select * from myemp order by salary asc limit 2;
+
+select * from myemp limit 2,1;
+select * from myemp where salary < (select max(salary) from myemp) limit 1;
+
+
+-- select a.name, count(b.title) as coun from books b left join authors a where coun > (select count(b.title) as cnt from books b where cnt > 4 left join authors a on b.authorid = a.authorid group by name);
+select * from books;
+select a.name , count(b.title) as cnt from books b left join authors a on b.authorid = a.authorid group by name having cnt > 3;
+
+select a.name , b.title, b.authorid from books b left join authors a on b.authorid = a.authorid where a.name = "Chetan Bhagat" or a.name = "Oscar Wilde";
+
+
+select * from authors;
+select * from books where authorid = (select authorid from authors where name = "Chetan bhagat");
+select * from books where authorid in (select authorid from authors where name = "Chetan Bhagat" or name = "Oscar Wilde" group by authorid) ;
+select authorid from authors where name = "Chetan Bhagat" or name = "Oscar Wilde";
+
+-- delimiters
+use batch9;
+show tables;
+
+select * from 1data;
+
+select * from 2data;
+
+delimiter ;
+
+show tables ;
+
+-- stored procedures
+
+use batch9;
+
+drop procedure get_emps;
+
+delimiter //
+
+
+
+create procedure get_emps()
+begin
+	select * from myemp;
+end //
+
+delimiter ;
+
+show procedure status;
+
+call get_emp();
+
+show tables;
+select * from myemp;
+
+
+-- stored procedure
+drop procedure getsal;
+delimiter //
+
+create procedure getsal(in sal int)
+begin
+	select * from myemp where salary = sal;
+end//
+delimiter ;
+
+call getsal(9000);
+
+-- multiple inputs
+drop procedure if exists getName;
+delimiter //
+create procedure getName(in sal int, in firstname varchar(20))
+begin
+select * from myemp where salary = sal and first_name = firstname;
+end//
+delimiter ;
+
+call getName(9000,"Daniel");

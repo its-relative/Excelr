@@ -1,0 +1,26 @@
+Row_ID,Order_ID,Order_Date,Ship_Date,Ship_Mode,Segment,State,Region,Sales,Quantity,Discount,Profit
+1,US-2020-103800,03-01-2020,07-01-2020,Standard Class,Consumer,Texas,Central,16.448,2,0.2,5.5512
+2,US-2020-112326,04-01-2020,08-01-2020,Standard Class,Home Office,Illinois,Central,3.54,2,0.8,-5.487
+3,US-2020-112326,04-01-2020,08-01-2020,Standard Class,Home Office,Illinois,Central,11.784,3,0.2,4.2717
+4,US-2020-112326,04-01-2020,08-01-2020,Standard Class,Home Office,Illinois,Central,272.736,3,0.2,-64.7748
+5,US-2020-141817,05-01-2020,12-01-2020,Standard Class,Consumer,Pennsylvania,East,19.536,3,0.2,4.884
+6,US-2020-167199,06-01-2020,10-01-2020,Standard Class,Home Office,Kentucky,South,2573.82,9,0,746.4078
+7,US-2020-167199,06-01-2020,10-01-2020,Standard Class,Home Office,Kentucky,South,5.48,2,0,1.4796
+8,US-2020-106054,06-01-2020,07-01-2020,First Class,Corporate,Georgia,South,12.78,3,0,5.2398
+9,US-2020-167199,06-01-2020,10-01-2020,Standard Class,Home Office,Kentucky,South,609.98,2,0,274.491
+10,US-2020-167199,06-01-2020,10-01-2020,Standard Class,Home Office,Kentucky,South,31.12,4,0,0.3112
+11,US-2020-167199,06-01-2020,10-01-2020,Standard Class,Home Office,Kentucky,South,6.54,1,0,3.0084
+12,US-2020-130813,06-01-2020,08-01-2020,Second Class,Consumer,California,West,19.44,3,0,9.3312
+13,US-2020-167199,06-01-2020,10-01-2020,Standard Class,Home Office,Kentucky,South,755.96,4,0,204.1092
+14,US-2020-167199,06-01-2020,10-01-2020,Standard Class,Home Office,Kentucky,South,391.98,2,0,113.6742
+15,US-2020-105417,07-01-2020,12-01-2020,Standard Class,Consumer,Texas,Central,76.728,3,0.6,-53.7096
+16,US-2020-105417,07-01-2020,12-01-2020,Standard Class,Consumer,Texas,Central,10.43,7,0.8,-18.2525
+17,US-2020-135405,09-01-2020,13-01-2020,Standard Class,Consumer,Texas,Central,9.344,2,0.2,1.168
+18,US-2020-135405,09-01-2020,13-01-2020,Standard Class,Consumer,Texas,Central,31.2,3,0.2,9.75
+19,US-2020-149020,10-01-2020,15-01-2020,Standard Class,Corporate,Virginia,South,51.94,1,0,21.2954
+20,US-2020-149020,10-01-2020,15-01-2020,Standard Class,Corporate,Virginia,South,2.89,1,0,1.3583
+21,US-2020-130092,11-01-2020,14-01-2020,First Class,Consumer,Delaware,East,9.94,2,0,3.0814
+22,US-2020-157147,13-01-2020,18-01-2020,Standard Class,Consumer,California,West,333.999,3,0.15,3.9294
+23,US-2020-109232,13-01-2020,16-01-2020,Second Class,Consumer,South Carolina,South,545.94,6,0,87.3504
+24,US-2020-157147,13-01-2020,18-01-2020,Standard Class,Consumer,California,West,19.9,5,0,6.567
+25,US-2020-118192,13-01-2020,18-01-2020,Standard Class,Consumer,Ohio,East,3.438,2,0.7,-2.5212
