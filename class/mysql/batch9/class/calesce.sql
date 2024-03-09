@@ -208,3 +208,32 @@ end//
 delimiter ;
 
 call getName(9000,"Daniel");
+
+-- functions 
+
+use batch9;
+select * from myemp;
+
+-- create view
+create view show_data as
+	select * from myemp where dep_ID = 60;
+    
+select * from show_data;
+
+-- sequence object
+-- create table sid,sname,scourse
+-- datatype int, varchar, varchar
+drop table if exists object;
+
+create table object (sid int Primary key auto_increment, sname varchar(8), scourse Text);
+insert into object(sid, sname,scourse) values(0, "Sapeksh","Mysql");
+insert into object(sname,scourse) values("Ram","PowerBi");
+select * from object;
+
+alter table object auto_increment = 100; 
+
+-- delete and truncate
+
+set sql_safe_updates = 0;
+truncate table object;
+delete from object;
