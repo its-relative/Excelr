@@ -1,0 +1,26 @@
+CREATE TABLE Employees (
+  Id INT IDENTITY PRIMARY KEY,
+  Name NVARCHAR(50) NOT NULL,
+  Salary DECIMAL(18,2) NOT NULL,
+  Department NVARCHAR(20) NOT NULL
+);
+
+
+
+INSERT INTO Employees (Name, Salary, Department)
+VALUES
+('Alice', 50000.00, 'Sales'),
+('Bob', 60000.00, 'Marketing'),
+('Charlie', 70000.00, 'IT'),
+('David', 80000.00, 'HR'),
+('Eve', 90000.00, 'Finance');
+
+
+SELECT * FROM Employees;
+
+SELECT AVG(Salary) AS Average_Salary FROM Employees;
+
+SELECT Department, COUNT(*) AS Employee_Count FROM Employees GROUP BY Department;
+
+SELECT E.* FROM Employees E
+WHERE E.Salary > (SELECT AVG(Salary) FROM Employees WHERE Department = E.Department);
