@@ -1,0 +1,16 @@
+docx2txt
+gensim
+matplotlib
+nltk
+numpy
+pandas
+pdfplumber
+PyPDF2
+scikit_learn
+seaborn
+spacy
+streamlit
+textblob
+textract
+wordcloud
+xgboost
